@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Choose Server</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    </head>
+    <body>
+        <!-- MATRIX & TYPING BACKGROUND -->
+        <canvas id="matrixCanvas"></canvas>
+        <div class="typing-container" id="typingArea">
+            &gt; <span id="typedText"></span><span class="cursor"></span>
+        </div>
+        <!-- LOADING SPINNER -->
+        <div class="loading-spinner" id="spinner"></div>
+        <!-- TOAST -->
+        <div id="toast-container"></div>
+        <!-- MAIN CONTENT -->
+        <div class="container">
+            <div class="server-card" data-server="global">
+                <h2>Server Global</h2>
+                <p>Pelase Subscribe YT:@ViVienDoChannel</p>
+                <div class="status-indicator online"
+                    data-tooltip="Server Online"></div>
+                <p>Number of users today: <span class="user-count">0</span></p>
+                <button class="select-btn">Pilih</button>
+            </div>
+            <div class="server-card" data-server="indonesia">
+                <h2>Server Indonesia</h2>
+                <p>Pelase Subscribe YT:@ViVienDoChannel</p>
+                <div class="status-indicator online"
+                    data-tooltip="Server Online"></div>
+                <p>Number of users today: <span class="user-count">0</span></p>
+                <button class="select-btn">Pilih</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
