@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
     button.addEventListener("click", () => {
       const server = button.closest(".server-card").dataset.server;
       button.disabled = true;
-      button.textContent = "Mengalihkan...";
+      button.textContent = "Please wait...";
 
       setTimeout(() => {
         if (server === "global") {
