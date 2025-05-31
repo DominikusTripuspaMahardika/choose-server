@@ -25,10 +25,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
       setTimeout(() => {
         if (server === "global") {
-          window.location.href = "https://tinyurl.com/ViVienDoChannel-Global";
+          window.location.href = "https://dominikustripuspamahardika.github.io/viviendochannel-global/";
         } else if (server === "indonesia") {
           window.location.href =
-            "https://tinyurl.com/ViVienDoChannel-Indonesia";
+            "https://dominikustripuspamahardika.github.io/viviendochannel-indonesia/";
         }
       }, 5000);
     });
